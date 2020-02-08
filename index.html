@@ -55,7 +55,44 @@
     <!-- Section: main -->
     <section class="section section-main">
       <div class="container">
+        <!-- row1 -->
         <div class="row row1">
+          <div class="col m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/gallery/devDesk.png" alt="" />
+                <span class="card-title green-text">DevDesk Queue</span>
+                <a
+                  href="#abstract1"
+                  class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"
+                >
+                  <i class="material-icons">add</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <a
+                  href="https://bw-dev-desk-queue-1.github.io/UI/"
+                  class="btn btn-small"
+                  target="_blank"
+                  >Go</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col m6 hide-on-small-only">
+            <div class="img-content">
+              <h3>DevDesk Queue</h3>
+              Students at lambda school need a place where they can escalate
+              their concerns and receive help. This app allows an admin to
+              manage help desk tickets that come in from Lambda School Students.
+              It also allows students (A 2nd user type) to submit a help desk
+              ticket, categorize it and post it to the help channel.
+            </div>
+          </div>
+        </div>
+
+        <!-- row2 -->
+        <div class="row row2">
           <div class="col m6 hide-on-small-only">
             <div class="img-content">
               <h3>Restaurant Passport</h3>
@@ -72,7 +109,7 @@
                 <img src="img/gallery/passport_restaurant.png" alt="" />
                 <span class="card-title">Restaurant Passport</span>
                 <a
-                  href="#abstract1"
+                  href="#abstract2"
                   class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"
                 >
                   <i class="material-icons">add</i>
@@ -89,15 +126,15 @@
             </div>
           </div>
         </div>
-        <!-- Row2 -->
-        <div class="row row2">
+        <!-- Row3 -->
+        <div class="row row3">
           <div class="col m6">
             <div class="card">
               <div class="card-image">
                 <img src="img/gallery/droom.png" alt="" />
                 <span class="card-title green-text">Droom</span>
                 <a
-                  href="#abstract2"
+                  href="#abstract3"
                   class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"
                 >
                   <i class="material-icons">add</i>
@@ -123,39 +160,6 @@
         </div>
 
         <!-- Row3 -->
-        <div class="row row3">
-          <div class="col m6 hide-on-small-only">
-            <div class="img-content">
-              <h3>Snackify</h3>
-              Are you tried of getting the same selection of snacks in your
-              company? You can select snacks from the fresh new lists updated
-              every week and we can deliver to your company for you to enjoy. We
-              are 'SNACKIFY' and you can 'SNACKIFY'!
-            </div>
-          </div>
-          <div class="col m6">
-            <div class="card">
-              <div class="card-image">
-                <img src="img/gallery/snackify.png" alt="" />
-                <span class="card-title green-text">Snackify</span>
-                <a
-                  href="#abstract3"
-                  class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"
-                >
-                  <i class="material-icons">add</i>
-                </a>
-              </div>
-              <div class="card-content">
-                <a
-                  href="https://snackify-landing.netlify.com/"
-                  class="btn btn-small"
-                  target="_blank"
-                  >Go</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -212,9 +216,29 @@
         </div>
       </div>
     </footer>
+    <!-- Modal1-->
 
-    <!-- Modal1 -->
     <div id="abstract1" class="modal">
+      <div class="modal-content">
+        <h4>DevDesk Queue</h4>
+        <img src="/img/gallery/devDesk.png" alt="" class="responsive-img" />
+        In this team collaboration project, I worked as a back-end developer. I
+        used NodeJS for back-end development in providing API end-points along
+        with desgin for database schema to serve all http requests for CRUD
+        operations from the React front-end app.
+      </div>
+      <div class="modal-footer">
+        <a
+          href="https://bw-dev-desk-queue-1.github.io/UI/"
+          class="btn btn-small"
+          target="_blank"
+          >Go</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div id="abstract2" class="modal">
       <div class="modal-content">
         <h4>Restaurant Passport</h4>
         <img
@@ -222,10 +246,12 @@
           alt=""
           class="responsive-img"
         />
-        In this team collaboration project, I worked as a role of react-2 for front-end development. I used react-redux for
-        state management to process data from back-end API, after performing http request methods for user authentication and
-        subsequent CRUD operation. I used Materialize-CSS to create various modal forms, side-nav bar, buttons and other
-        components.
+        In this team collaboration project, I worked as a role of react-2 for
+        front-end development. I used react-redux for state management to
+        process data from back-end API, after performing http request methods
+        for user authentication and subsequent CRUD operations. I used
+        Materialize-CSS to create various modal forms, side-nav bar, buttons and
+        other components.
       </div>
       <div class="modal-footer">
         <a
@@ -237,9 +263,9 @@
       </div>
     </div>
 
-    <!-- Modal2 -->
+    <!-- Modal3-->
 
-    <div id="abstract2" class="modal">
+    <div id="abstract3" class="modal">
       <div class="modal-content">
         <h4>Droom</h4>
         <img src="img/gallery/droom.png" alt="" class="responsive-img" />
@@ -260,25 +286,6 @@
       </div>
     </div>
 
-    <!-- Modal3  -->
-    <div id="abstract3" class="modal">
-      <div class="modal-content">
-        <h4>Snackify</h4>
-        <img src="img/gallery/snackify.png" alt="" class="responsive-img" />
-        In this team collaboration project, I worked as a role of UI to create
-        the marketing page. I was able to create flipping card animation to
-        catch users’ eyes and to attract their interests in our products and
-        services.
-      </div>
-      <div class="modal-footer">
-        <a
-          href="https://snackify-landing.netlify.com/"
-          class="btn btn-small"
-          target="_blank"
-          >Go</a
-        >
-      </div>
-    </div>
     <!--Import jQuery before materialize.js-->
     <script
       type="text/javascript"

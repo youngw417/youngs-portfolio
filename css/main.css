@@ -6869,3 +6869,11 @@ body {
 .row2,
 .row3 {
   opacity: 0; }
+
+.circle-container {
+  overflow: hidden; }
+
+.circle {
+  max-width: 50% !important;
+  max-height: 200px;
+  vertical-align: middle; }

@@ -48,8 +48,19 @@
           <li><a href="portfolio3.html">recent</a></li>
         </ul>
       </nav>
-      <h1 class="center">I Do Web Development</h1>
-      <h4 class="center">Young Won</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <h2 class="center">I Do Web Development</h2>
+          <h4 class="center">Young Won</h4>
+        </div>
+        <div class="col s12 m5 offset-m1 circle-container">
+          <img
+            src="img/gallery/headshot2.png"
+            alt=""
+            class="responsive-img circle center hide-on-small-and-down"
+          />
+        </div>
+      </div>
     </header>
 
     <!-- Section: main -->
@@ -60,7 +71,7 @@
           <div class="col m6">
             <div class="card">
               <div class="card-image">
-                <img src="img/gallery/devDesk.png" alt="" />
+                <img src="img/gallery/devDesk.png" alt="" style="" />
                 <span class="card-title green-text">DevDesk Queue</span>
                 <a
                   href="#abstract1"
@@ -312,14 +323,14 @@
           },
           {
             selector: '.row2',
-            offset: 300,
+            offset: 150,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }
           },
           {
             selector: '.row3',
-            offset: 400,
+            offset: 200,
             callback: function(el) {
               Materialize.fadeInImage($(el));
             }

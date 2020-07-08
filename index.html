@@ -45,24 +45,63 @@
             <i class="material-icons">menu</i>
           </a>
           <a href="index.html" class="brand-logo small">My Portfolio</a>
+    <!-- for responsive desgin -->
           <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Most Recent</a></li>
-            <li><a href="portfolio2.html">Fairly Recent</a></li>
-            <li><a href="portfolio3.html">Recent</a></li>
+            <li class="active"><a href="index.html">Most Recent Projects</a></li>
+            <li><a href="portfolio2.html">Fairly Recent Projects</a></li>
+            <li><a href="portfolio3.html">Recent Projects</a></li>
           </ul>
         </div>
         <ul class="side-nav" id="mobile-nav">
-          <li><a href="index.html">Most Recent</a></li>
-          <li><a href="portfolio2.html">Fairly Recent</a></li>
-          <li><a href="portfolio3.html">Recent</a></li>
+          <li><a href="index.html">Most Recent Projects</a></li>
+          <li><a href="portfolio2.html">Fairly Recent Projects</a></li>
+          <li><a href="portfolio3.html">Recent Projects</a></li>
+          <h5 class="black-text" style='margin-top: 30px; margin-left:2rem'>Contact</h5>
+          <ul>
+            <li>
+              <a
+                class="grey-text text-darken-3"
+                href="mailto: youngw417@gmail.com"
+                target="_blank"
+                >Send an email</a
+              >
+            </li>
+            <li>
+              <a
+                class="grey-text text-darken-3"
+                href="https://youngw417.github.io/myresume/"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                class="grey-text text-darken-3"
+                href="https://github.com/youngw417"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="grey-text text-darken-3"
+                href="https://www.linkedin.com/in/young-won-b3b343138/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
         </ul>
       </nav>
       <div class="row">
         <div class="col s12 m6">
           <h3 class="center">Web Development</h3>
           <h4 class="center">Young Won</h4>
+          <div class="center" style="margin-top: 40px"><a href="#skills" class="white-text">Technical Skills</a></div>
+        
         </div>
         <div class="col s12 m5 offset-m1 circle-container">
+      <!-- for responsive desgin -->
           <img
             src="img/gallery/compressed/headshot2-min.png"
             alt=""
@@ -102,7 +141,11 @@
           <div class="col m6 hide-on-small-only">
             <div class="img-content">
               <h3>Story Squad</h3>
-              Welcome to Story Squad! We are a platform targeted at young children and we  help build writing, comprehension, art, and analytical/critical thinking skills through weekly creative competitions.
+              <p>We are a platform targeted at young children 
+              to help build writing, comprehension, and analytical/critical 
+              thinking skills by creative competitions.</P>
+              <p>In this lab project, I worked as a backend developer in a team of 5, accomplished 2 product cycles for 8 weeks to build key features and reusable and scalable modules.
+       We utilized React, TypeScript in Front-end and TypeORM with Postgres, NodeJS, and Docker containers in Back-end development</p>
             </div>
           </div>
         </div>
@@ -112,11 +155,12 @@
           <div class="col m6 hide-on-small-only">
             <div class="img-content">
               <h3>DevDesk Queue</h3>
-              Students at lambda school need a place where they can escalate
-              their concerns and receive help. This app allows an admin to
-              manage help desk tickets that come in from Lambda School Students.
-              It also allows students (A 2nd user type) to submit a help desk
-              ticket, categorize it and post it to the help channel.
+              <p>Students at lambda school need a place where they can escalate
+              their concerns and receive help. </p>
+              <p> In this team collaboration project, I worked as a back-end developer. I
+                used NodeJS for back-end development in providing API end-points along
+                with desgin for database schema to serve all http requests for CRUD
+                operations from the React front-end app.</p>
             </div>
           </div>
           <div class="col m6">
@@ -169,11 +213,15 @@
           <div class="col m6 hide-on-small-only">
             <div class="img-content">
               <h3>Restaurant Passport</h3>
-              Any foodie worth their weight in salt should always have ideas of
-              where to eat in their home city whenever the opportunity arises.
-              If you are tired of defaulting to the same dive spot because of
-              "decision fatigue" every week, Restaurant Passport is the
-              solution.
+              <p>If you are tired of defaulting to the same dive spot because of
+                "decision fatigue" every week, Restaurant Passport is the
+                solution.</p>
+             
+              <p> As a React 2, front-end developer  I used react-redux for state management for
+                data fetched from back-end API, by creating http request methods
+                for user authentication and subsequent client side routing for rendering components. I used
+                Materialize-CSS to create various modal forms, side-nav bar, buttons and
+                other components.</p>
             </div>
           </div>
         </div>
@@ -193,11 +241,23 @@
               A dream does not become reality through magic; it takes sweat,
               determination, and hard work.
               <span class="teal-text darken-4">– Colin Powell</span>
+              <h5 id="skills" class="teal-text">Technical Skills</h5>
+          <P class="grey-text text-darken-4">Java Script and Python | React, Redux & React Native | NodeJs</P>
+            <p class="grey-text text-darken-4" >MongoDB, Postgres & SQLite | SQL | GraphQL | 
+              TypeScript | HTML&CSS</p>
             </p>
           </div>
           <div class="col l4 offset-l2 s12">
-            <h5 class="black-text">Links</h5>
+            <h5 class="black-text">Contact</h5>
             <ul>
+              <li>
+                <a
+                  class="grey-text text-darken-3"
+                  href="mailto: youngw417@gmail.com"
+                  target="_blank"
+                  >Send an email</a
+                >
+              </li>
               <li>
                 <a
                   class="grey-text text-darken-3"
@@ -241,15 +301,17 @@
       <div class="modal-content">
         <h4>Story Squad</h4>
         <img src="img/gallery/compressed/story_squad_small.png" alt="" class="responsive-img" />
-        In this lab project, I worked as a backend developer in a team of 5, accomplished 2 product cycles for 8 weeks to build key features and reusable and scalable modules.
-       We utilized React, TypeScript in Front-end and TypeORM with Postgres, NodeJS, and Docker containers in Back-end development
+        Welcome to Story Squad! We are a platform targeted at young children 
+        and we  help build writing, comprehension, art, and analytical/critical 
+        thinking skills through weekly creative competitions.
+        
       </div>
       <div class="modal-footer">
         <a
-          href="https://story-squad.netlify.com/"
+          href="https://github.com/Lambda-School-Labs/story-squad-be"
           class="btn btn-small"
           target="_blank"
-          >Go</a
+          >link to repo</a
         >
       </div>
     </div>
@@ -263,17 +325,19 @@
           alt=""
           class="responsive-img"
         />
-        In this team collaboration project, I worked as a back-end developer. I
-        used NodeJS for back-end development in providing API end-points along
-        with desgin for database schema to serve all http requests for CRUD
-        operations from the React front-end app.
+        Students at lambda school need a place where they can escalate
+        their concerns and receive help. This app allows an admin to
+        manage help desk tickets that come in from Lambda School Students.
+        It also allows students (A 2nd user type) to submit a help desk
+        ticket, categorize it and post it to the help channel.
+       
       </div>
       <div class="modal-footer">
         <a
-          href="https://objective-meitner-f3b218.netlify.com/"
+          href="https://github.com/BW-Dev-Desk-Queue-1/Back-End"
           class="btn btn-small"
           target="_blank"
-          >Go</a
+          >link to repo</a
         >
       </div>
     </div>
@@ -284,19 +348,19 @@
       <div class="modal-content">
         <h4>Restaurant Passport</h4>
         <img src="img/gallery/compressed/passport_restaurant-min.png" alt="" class="responsive-img" />
-        In this team collaboration project, I worked as a role of react-2 for
-        front-end development. I used react-redux for state management to
-        process data from back-end API, after performing http request methods
-        for user authentication and subsequent CRUD operations. I used
-        Materialize-CSS to create various modal forms, side-nav bar, buttons and
-        other components.
+       
+        Any foodie worth their weight in salt should always have ideas of
+        where to eat in their home city whenever the opportunity arises.
+        If you are tired of defaulting to the same dive spot because of
+        "decision fatigue" every week, Restaurant Passport is the
+        solution.
       </div>
       <div class="modal-footer">
         <a
-          href="https://objective-meitner-f3b218.netlify.com/"
+          href="https://github.com/restaurant-passport-1/front-end"
           class="btn btn-small"
           target="_blank"
-          >Go</a
+          >link to repo</a
         >
       </div>
     </div>

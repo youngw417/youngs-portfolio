@@ -6877,3 +6877,14 @@ body {
   max-width: 50% !important;
   max-height: 200px;
   vertical-align: middle; }
+
+
+  @media (max-width: 600px) {
+    .flex-s {
+      display: flex;
+      flex-direction: column; /* Stack on top */
+    }
+    .box-a {
+      order: 2; /* Go down, bring Box B up */
+    }
+  }

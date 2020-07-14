@@ -6888,3 +6888,11 @@ body {
       order: 2; /* Go down, bring Box B up */
     }
   }
+
+  .to_site{
+    color: white
+  }
+
+  .to_site:hover{
+    color: rgb(144, 144, 227);
+  }

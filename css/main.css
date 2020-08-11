@@ -6928,11 +6928,19 @@ h4 .title{
  
 }
 
+.main-header{
+  height: 450px
+}
+
 @media(max-width: 500px){
   .card2{
     transform: scale(1, 1);
   }
   .r1{
     margin-top: 15px;
+  }
+
+  .main-header{
+    height: 400px;
   }
 }

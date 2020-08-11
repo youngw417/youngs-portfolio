@@ -6869,10 +6869,10 @@ body {
 .row1,
 .row2,
 .row3 {
-  opacity: 1; 
+  opacity: 0; 
   margin-top: 50px;
 }
-
+.row2{opacity:1;}
 .circle-container {
   overflow: hidden; }
 
@@ -6935,6 +6935,9 @@ h4 .title{
 @media(max-width: 500px){
   .card2{
     transform: scale(1, 1);
+  }
+  .story{
+    margin-top: 50px;
   }
 }
 

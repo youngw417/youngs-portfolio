@@ -6912,3 +6912,24 @@ h4 .title{
   width: 50%;
   margin: 0 auto;
 }
+
+@media(max-width: 500px){
+  .main{
+    width: 90%;
+    margin: 0 auto;
+    
+    
+  }
+}
+
+.card2{
+ transform: scale(1.1, 1.1);
+
+ 
+}
+
+@media(max-width: 500px){
+  .card2{
+    transform: scale(1, 1);
+  }
+}

@@ -6869,7 +6869,7 @@ body {
 .row1,
 .row2,
 .row3 {
-  opacity: 0; 
+  opacity: 1; 
   margin-top: 50px;
 }
 

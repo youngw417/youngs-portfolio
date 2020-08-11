@@ -6932,4 +6932,7 @@ h4 .title{
   .card2{
     transform: scale(1, 1);
   }
+  .r1{
+    margin-top: 15px;
+  }
 }

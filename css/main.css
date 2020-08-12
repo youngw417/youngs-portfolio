@@ -1555,8 +1555,11 @@
 .grey.lighten-1 {
   background-color: #bdbdbd !important; }
 
-.grey-text.text-lighten-1 {
-  color: #bdbdbd !important; }
+/* .grey-text.text-lighten-1 {
+  color: #bdbdbd !important; } */
+
+  .grey-text.text-lighten-1 {
+    color: #1e1e1e!important; }
 
 .grey.darken-1 {
   background-color: #757575 !important; }
@@ -1564,9 +1567,11 @@
 .grey-text.text-darken-1 {
   color: #757575 !important; }
 
-.grey.darken-2 {
-  background-color: #616161 !important; }
+/* .grey.darken-2 {
+  background-color: #616161 !important; } */
 
+.grey.darken-2 {
+    background-color: #4d4d4d !important; }
 .grey-text.text-darken-2 {
   color: #616161 !important; }
 
@@ -1618,7 +1623,8 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+  }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -2520,6 +2526,8 @@ nav ul a span.badge {
   margin-right: -0.75rem; }
 
 .section {
+  background-color: #c6c3c3;;
+
   padding-top: 1rem;
   padding-bottom: 1rem; }
   .section.no-pad {
@@ -6837,14 +6845,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 body {
-  background: #004d40;
+  background: #1e1e1e;
   color: white; }
 
 .main-header {
-  background: url(../img/javardh.jpg);
+  /* background: url(../img/javardh.jpg); */
+  background-color: rgba(2, 24, 5, 0.975);
   color: #fff;
-  height: 300px;
-  margin-bottom: 30px; }
+
+  }
   .main-header h1 {
     margin: 0;
     padding-top: 30px; }
@@ -6859,7 +6868,7 @@ body {
   color: #004d40; }
 
 .page-footer {
-  background: #bdbdbd; }
+  background: #a5a5a5; }
   .page-footer .footer-copyright {
     background: #424242; }
 
@@ -6893,11 +6902,15 @@ body {
   }
 
   .to_site{
-    color: white
+    color: rgba(2, 24, 5, 0.975);
+    font-size: 1.1rem;
+  }
+  .site1{
+    font-size: 1rem;
   }
 
   .to_site:hover{
-    color: rgb(144, 144, 227);
+    color: rgba(5, 82, 15, 0.975);
   }
 
   .name{
@@ -6909,8 +6922,9 @@ h4 .title{
 
   }
 .main{
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
+  margin-top: 0;
 }
 
 @media(max-width: 500px){
@@ -6927,10 +6941,10 @@ h4 .title{
 
  
 }
-
+/* 
 .main-header{
   height: 450px
-}
+} */
 
 @media(max-width: 500px){
   .card2{
@@ -6940,5 +6954,16 @@ h4 .title{
     margin-top: 50px;
   }
 }
-
+section .row h3, section .row h4, .motto{
+  color: #4d4d4d;
+}
+/* .section-main{
+  background-color: #1A1A1A;
+} */
 /* test */
+section .row p{
+  color: #1e1e1e;
+}
+.circle-container{
+  margin-top: 50px;
+}

@@ -6967,3 +6967,13 @@ section .row p{
 .circle-container{
   margin-top: 50px;
 }
+
+section{
+  padding-bottom: 20px;
+}
+
+@media(max-width: 1200px){
+  .page-footer{
+    background-color: #c7c4c4;
+  }
+}

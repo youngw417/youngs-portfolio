@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/5f1aa7b8a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <!-- fav-icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/resources/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/resources/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/resources/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/resources/favicons/site.webmanifest" />
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/resources/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fav-icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicons/site.webmanifest" />
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="/img/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Young Won' Portfolio #</title>
+  </head>
+
+  <body>
+    <header id="top" class="main-header" >
+      <nav class="transparent z-depth-0">
+        <div class="container nav-wrapper">
+          
+          <ul>
+            <li><a href="index.html" class="ss_title">back to Home</a></li>
+            
+          </ul>
+        </div>
+       
+          
+         
+        
+        
+      </nav>
+      <div class="main">
+        <h3 class="name">Young Won</h3>
+        <a href="https://story-squad.netlify.com/" class="ss_title"><h4 class="title">Story Squad</h4></a>
+        <div>
+          <a href="https://story-squad.netlify.com/" class="ss_title"  target="_blank" >Link to site</a>
+          <span>&nbsp; |  &nbsp;</span>
+          <a href="https://github.com/Lambda-School-Labs/story-squad-be" class="ss_title"  target="_blank" >link to the codebase</a>
+        </div>
+        
+      
+      </div>
+    </header>
+
+    <!-- Section: main -->
+    <section class="section section-main">
+      <div class="container">
+        <div class="row">
+          <div class="col m6">
+          
+            <div class="card ss" style="margin-top: 60px;">
+              <div class="card-image waves-effect waves-block waves-light">
+                <a href="https://story-squad.netlify.com/"><img class="activator ss_img" src="img/gallery/compressed/Match_up.png"></a>
+                
+              </div>
+              <!-- <img class="activator ss_img" src="img/gallery/compressed/Match_up.png"> -->
+            </div> 
+          </div>         
+        <div class="col m6">
+          <div class="demo_title">
+            <h4>App Demo</h4>
+          </div>
+          
+      
+          <video width="100%" height="200" controls>
+            <source src="/img/gallery/compressed/labs22-demo.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+              
+          </div>
+
+        </div>
+        <div class="row row_ss">
+          <div class="col s12">
+          
+              <h3 class="story_squad_header"><i class="fas fa-exclamation-circle situation"></i
+                >&nbsp;The situation</h3>
+         
+              <p>Our clients, Story Squad, is an educational platform for young children. The platform uploads stories for students to read. Students then submit their own essays and pictures related to the uploaded content to develop their comprehension and creative skills. Story Squad wanted to gamify the educational experience by building a feature where they could match students with one another for the purpose of peer review, scoring and learning. The goal was to have a platform where Story Squad could keep track of the peer scores of the student content to create micro-competitions. </p>
+              
+          
+          </div>
+        
+     
+          <div class="col m12">
+   
+              <h3 class="story_squad_header"><i class="far fa-lightbulb bulb"></i>&nbsp;The Solution</h3>
+         
+              <p>My lab team at Lambda built a point allocation and calculation system for this feature, created a database that logged the total scores for each match-up team, and created an algorithm to match students based on previous scores.  </p>
+      
+          </div>
+          <div class="col m12">
+   
+            <h3 class="story_squad_header"><i class="fas fa-user-circle role"></i>&nbsp;The Role</h3>
+       
+            <p>I was the main backend developer in a team of 5. I extracted the scoring data for each student and created an algorithm to supply student match-ups to the front-end http requests.
+
+              I utilized React, TypeScript and Material-UI in Front-end development and TypeORM with Postgres on NodeJS, Docker containers in Back-end development
+               </p>
+    
+        </div>
+        <div class="col m12">
+   
+          <h3 class="story_squad_header"><i class="fas fa-book book"></i>&nbsp;Learnings 
+          </h3>
+     
+          <p>The back-end application of the project utilized the TypeORM and NodeJS since the previous team used this technology for consistency with the front-end development for which they used TypeScripts and Javascript. I had to create strongly typed database models similar to the one in Java’s Spring  framework’s database models using Repositories.
+
+          </p>
+          <p>TypeORM was an open source tool which was not familiar to me or my teammates as we previously built back-end applications using database models with Knex query builder. I had to research and learn about these new technological tools and apply this to build new functionality within a short time frame.
+            Our team’s approach to learn quickly was to focus on creating models in typeORM and collaborate through discussion and pair programming to help each other fill knowledge gaps of this new tool.
+            
+          </p>
+          <p>Another challenge was that our stakeholder had a big-picture idea of how they wanted the competitive feature to work, but did not have an existing product flow yet mapped. One of the main challenges of the project was taking the high-level requirements and figuring out the mechanics of the product interactions ourselves. I learned that the planning stage and a detailed tech spec was immensely important in order to make sure our team and the stakeholder was on the same page of what we were building. 
+
+            </p>
+  
+      </div>
+        </div>
+
+        <!-- <div class = "row"></div>
+          <div class="col s12 ss">
+            
+                <video width="90%" height="400" controls>
+                  <source src="/img/gallery/compressed/labs22-demo.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>
+                
+          
+          </div>
+        </div> -->
+        <!-- Row2 -->
+        
+
+        <!-- Row3 -->
+       
+          
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    
+      
+
+    
+
+    
+    
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Custom JS & jQuery here
+        // side-nav
+        $('.button-collapse').sideNav();
+
+        // init Modal
+        $('.modal').modal();
+
+        // Scrollfire
+  
+    </script>
+  </body>
+</html>

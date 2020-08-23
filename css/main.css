@@ -6978,3 +6978,51 @@ section{
     background-color: #c7c4c4;
   }
 }
+
+.story_squad_header{
+  font-size: 2rem;
+}
+
+
+
+.ss{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.situation{
+  color: red;
+}
+
+.bulb{
+  color: green;
+}
+
+.role{
+  color: rgba(237, 237, 12, 0.797);
+}
+
+.book{
+  color: #05599d;
+}
+
+.demo_title h4{
+  margin-left: 3rem;
+}
+
+.ss_title{
+  color: white;
+
+}
+
+.ss_title:hover{
+  color: rgb(143, 198, 17);
+}
+/* .ss_img:hover{
+  transform: scale(1.5);
+  overflow: visible;
+} */
+
+.main{
+  padding-bottom: 15px;
+}

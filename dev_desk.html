@@ -94,11 +94,11 @@
       </nav>
       <div class="main">
         <h3 class="name">Young Won</h3>
-        <a href="https://story-squad.netlify.com/" class="ss_title"><h4 class="title">Story Squad</h4></a>
+        <a href="https://queue.bw-dev-desk-queue-1.now.sh/" class="ss_title"><h4 class="title">DevDesk Queue</h4></a>
         <div>
-          <a href="https://story-squad.netlify.com/" class="ss_title"  target="_blank" >Link to site</a>
+          <a href="https://queue.bw-dev-desk-queue-1.now.sh/" class="ss_title"  target="_blank" >Link to site</a>
           <span>&nbsp; |  &nbsp;</span>
-          <a href="https://github.com/Lambda-School-Labs/story-squad-be" class="ss_title"  target="_blank" >link to the codebase</a>
+          <a href="https://github.com/BW-Dev-Desk-Queue-1/Back-End" class="ss_title"  target="_blank" >link to the codebase</a>
         </div>
         
       
@@ -111,29 +111,25 @@
         <div class="row">
           <div class="col m6">
           
-            <div class="card ss" style="margin-top: 70px;">
+            <div class="card" style="margin-top: 70px;">
               <div class="card-image waves-effect waves-block waves-light">
-                <a href="https://story-squad.netlify.com/"><img class="activator ss_img" src="img/gallery/Match_up_com.png"></a>
+                <img class="activator ss_img" src="img/gallery/dev_desk1.png">
                 
               </div>
               <!-- <img class="activator ss_img" src="img/gallery/compressed/Match_up.png"> -->
             </div> 
           </div>         
         <div class="col m6">
-          <div class="demo_title">
-            <h4>App Demo</h4>
-          </div>
-          
-          <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y5-6M30nTNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <!-- <video width="100%" height="200" controls>
-            <source src="/img/gallery/compressed/labs22-demo.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-          </video> -->
+          <div class="card" style="margin-top: 70px;">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator ss_img" src="img/gallery/dev_desk2.png">
               
-          </div>
+            </div>
+            <!-- <img class="activator ss_img" src="img/gallery/compressed/Match_up.png"> -->
+          </div> 
+             
+              
+        </div>
 
         </div>
         <div class="row row_ss">
@@ -142,7 +138,8 @@
               <h3 class="story_squad_header"><i class="fas fa-exclamation-circle situation"></i
                 >&nbsp;The situation</h3>
          
-              <p>Our clients, Story Squad, is an educational platform for young children. The platform uploads stories for students to read. Students then submit their own essays and pictures related to the uploaded content to develop their comprehension and creative skills. Story Squad wanted to gamify the educational experience by building a feature where they could match students with one another for the purpose of peer review, scoring and learning. The goal was to have a platform where Story Squad could keep track of the peer scores of the student content to create micro-competitions. </p>
+              <p>Currently students at Lambda School currently escalate any technical or administrative issues through Slack to receive help. However, this is quite an unruly and disorganized process form admins who are managing the help desk tickets.
+              </p>
               
           
           </div>
@@ -152,16 +149,16 @@
    
               <h3 class="story_squad_header"><i class="far fa-lightbulb bulb"></i>&nbsp;The Solution</h3>
          
-              <p>My lab team at Lambda built a point allocation and calculation system for this feature, created a database that logged the total scores for each match-up team, and created an algorithm to match students based on previous scores.  </p>
+              <p>We built a web application that allows students to submit a help desk ticket, categorize it and post it to the help channel. This platform also makes it easy for administrators to manage the status of the tickets and prioritize them. 
+              </p>
       
           </div>
           <div class="col m12">
    
             <h3 class="story_squad_header"><i class="fas fa-user-circle role"></i>&nbsp;The Role</h3>
        
-            <p>I was the main backend developer in a team of 5. I extracted the scoring data for each student and created an algorithm to supply student match-ups to the front-end http requests.
+            <p>I worked as a back-end developer, creating database models for students and admins. I created a database relationship between all collections of data using SQL and Knex table models.  Using database methods, I provided all required end-points to serve as back-end APIs to satisfy all front-end HTTP requests.
 
-              I utilized React, TypeScript and Material-UI in Front-end development and TypeORM with Postgres on NodeJS, Docker containers in Back-end development
                </p>
     
         </div>
@@ -170,17 +167,11 @@
           <h3 class="story_squad_header"><i class="fas fa-book book"></i>&nbsp;The Learnings 
           </h3>
      
-          <p>The back-end application of the project utilized the TypeORM and NodeJS since the previous team used this technology for consistency with the front-end development for which they used TypeScripts and Javascript. I had to create strongly typed database models similar to the one in Java’s Spring  framework’s database models using Repositories.
+          <p>From this project, I understood how to create the back-end’s end-points based on Restful API principles. By working on the overall back-end workflow, I learned how to build an efficient back-end application at various stages. One of the key focuses was registration and login where I built a flow that encrypts and compares passwords. The flow also created and verified JWT (security tokens) and used middleware to control the access to the protected routes. 
+
 
           </p>
-          <p>TypeORM was an open source tool which was not familiar to me or my teammates as we previously built back-end applications using database models with Knex query builder. I had to research and learn about these new technological tools and apply this to build new functionality within a short time frame.
-            Our team’s approach to learn quickly was to focus on creating models in typeORM and collaborate through discussion and pair programming to help each other fill knowledge gaps of this new tool.
-            
-          </p>
-          <p>Another challenge was that our stakeholder had a big-picture idea of how they wanted the competitive feature to work, but did not have an existing product flow yet mapped. One of the main challenges of the project was taking the high-level requirements and figuring out the mechanics of the product interactions ourselves. I learned that the planning stage and a detailed tech spec was immensely important in order to make sure our team and the stakeholder was on the same page of what we were building. 
-
-            </p>
-  
+          
       </div>
         </div>
 
